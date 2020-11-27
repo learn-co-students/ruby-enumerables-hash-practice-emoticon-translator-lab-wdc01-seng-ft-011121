@@ -27,6 +27,7 @@ def get_japanese_emoticon(file_path, icon)
   "Sorry, that emoticon was not found"
 end
 
+
 def get_english_meaning(file_path, icon)
   emoticons = load_library(file_path)
   emoticons.each {
@@ -41,4 +42,4 @@ def get_english_meaning(file_path, icon)
 end
 
 #load_library
-get_english_meaning("./lib/emoticons.yml", "☜(⌒▽⌒)☞")
+#get_english_meaning("./lib/emoticons.yml", "☜(⌒▽⌒)☞")
