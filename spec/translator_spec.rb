@@ -154,5 +154,3 @@ describe "#get_japanese_emoticon" do
   end
 
 end
-
-
